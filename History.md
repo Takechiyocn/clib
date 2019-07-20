@@ -1,4 +1,44 @@
 
+1.8.1 / 2017-08-21
+==================
+
+  * travis: add @clibbot token
+  * Upload Windows binaries to tagged Github Releases (#147)
+  * Pre-compiled Windows binaries for future Github releases (#143)
+
+1.8.0 / 2016-11-02
+==================
+
+  * Fix version number
+  * Updated broken link to article (#134)
+  * Add ccan to clib conversion script (#128)
+  * Add 'curl-config' to Makefile to find cURL (#117)
+  * Update .gitignore
+
+1.7.0 / 2016-01-17
+==================
+
+  * test: fix installed `parson` version
+  * deps,package: update `parson`
+  * package,deps: update `logger`
+  * deps,package: update clib-package (adds ability to install from repo in "package.json [@willemt])
+  * Makefile: rename `MKDIR_P` to `MKDIRP`
+
+1.6.0 / 2016-01-17
+==================
+
+  * test: remove kgabis/parson comment
+  * deps,package: update `parson`
+  * deps,package: update `str-replace`
+  * install: add `--save` and `--save-dev` options (#124, @darthtrevino)
+
+1.5.0 / 2015-11-17
+==================
+
+  * clib-search: add `-c/--skip-cache` flag for ignoring $TMPDIR/clib-search.cache
+  * test.sh cygwin compatibility
+  * add cygwin compatible
+
 1.4.2 / 2015-01-06
 ==================
 
@@ -171,19 +211,19 @@
  * add support for omitting "clibs/" on install
  * change: install packages to their own subdirectory
 
-0.1.0 / 2013-10-11 
+0.1.0 / 2013-10-11
 ==================
 
  * add search command
 
-0.0.3 / 2012-11-20 
+0.0.3 / 2012-11-20
 ==================
 
   * add cpm-install(1)
   * add -o, --out <dir>
   * change default dir to ./deps
 
-0.0.2 / 2012-10-30 
+0.0.2 / 2012-10-30
 ==================
 
   * add bin

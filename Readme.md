@@ -12,13 +12,13 @@
 
   With [homebrew](https://github.com/Homebrew/homebrew):
 
-```bash
+```sh
 $ brew install clib
 ```
 
   With git:
 
-```bash
+```sh
 $ git clone https://github.com/clibs/clib.git /tmp/clib
 $ cd /tmp/clib
 $ make install
@@ -26,7 +26,7 @@ $ make install
 
   Ubuntu:
 
-```bash  
+```sh  
 # install libcurl
 $ sudo apt-get install libcurl4-gnutls-dev -qq
 # clone
@@ -45,7 +45,7 @@ $ sudo make install
   stand-alone "micro" C libraries for developers to quickly install without coupling
   to large frameworks.
 
-  You should use `clib(1)` to fetch these files for you and check them into your repository, the end-user and contributors should not require having `clib(1)` installed. This allows clib(1) to fit into any new or existing C workflow without friction.
+  You should use `clib(1)` to fetch these files for you and check them into your repository, the end-user and contributors should not require having `clib(1)` installed. This allows `clib(1)` to fit into any new or existing C workflow without friction.
 
   The wiki [listing of packages](https://github.com/clibs/clib/wiki/Packages) acts as the "registry" and populates the `clib-search(1)` results.
 
@@ -70,25 +70,25 @@ $ sudo make install
 
  Install a few dependencies to `./deps`:
 
-```bash
+```sh
 $ clib install clibs/ms clibs/commander
 ```
 
  Install them to `./src` instead:
 
-```bash
+```sh
 $ clib install clibs/ms clibs/commander -o src
 ```
 
  When installing libraries from the `clibs` org you can omit the name:
 
-```bash
+```sh
 $ clib install ms file hash
 ```
 
  Install some executables:
 
-```bash
+```sh
 $ clib install visionmedia/mon visionmedia/every visionmedia/watch
 ```
 
@@ -131,4 +131,4 @@ $ clib install visionmedia/mon visionmedia/every visionmedia/watch
 ## Articles
 
   - [Introducing Clib](https://medium.com/code-adventures/b32e6e769cb3) - introduction to clib
-  - [The Advent of Clib: the C Package Manager](http://blog.ashworth.in/the-advent-of-clib-the-c-package-manager/) - overview article about clib
+  - [The Advent of Clib: the C Package Manager](http://blog.ashworth.in/2014/10/19/the-advent-of-clib-the-c-package-manager.html) - overview article about clib
